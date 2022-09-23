@@ -5,6 +5,7 @@ ul {
     overflow: hidden;
     background-color: #333;
     position: sticky;
+    width: auto;
     top: 0;
 }
 
@@ -35,19 +36,24 @@ li a:hover {
 }
 
 .column {
-    width:300px;
-    float:left
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif !important;
     background-color: #ADD8E6 !important;
 }
 
 p{
-    text-align: left;
-    float: left;
-    
+    text-align: center;
 }
 
 h1{
