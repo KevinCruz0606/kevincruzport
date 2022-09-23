@@ -43,7 +43,7 @@ img {vertical-align: middle;}
 }
 
 .active {
-  background-color: #717171;
+  background-color: rgb(174, 18, 18);
 }
 
 /* Fading animation */
@@ -63,6 +63,5 @@ img {vertical-align: middle;}
 }
 
 .vtimage{
-    width: 720px;
-    height: 420px;
+   max-width: 500px;
 }
