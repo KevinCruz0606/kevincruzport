@@ -5,9 +5,10 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 70%;
   position: relative;
   margin: auto;
+  text-align: center;
 }
 
 /* Caption text */
@@ -59,4 +60,9 @@ img {vertical-align: middle;}
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
+}
+
+.vtimage{
+    width: 720px;
+    height: 420px;
 }
